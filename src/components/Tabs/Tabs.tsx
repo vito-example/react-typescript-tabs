@@ -10,3 +10,11 @@ type TabsProps = {
         linkText: string;
     }[];
 };
+
+const Tabs = ({data}: TabsProps) => {
+    return (
+        <p>Tabs</p>
+    )
+}
+
+export default Tabs;
